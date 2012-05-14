@@ -20,7 +20,7 @@ A little touch of style in the Widget admin area by this [WordPress Q&A](http://
 ##FAQ
 Check [jQuery Cycle documentation](http://jquery.malsup.com/cycle/options.html) and configure the file /js/tuit-widget.js
 
-The CSS for the frontend Widget is inside the function tuit_print_stylesheet (line 54) of the plugin.
+The CSS for the frontend Widget is inside the function tuit_print_stylesheet ([line 54](https://github.com/brasofilo/tuit-cycler/blob/master/rb_tuit_cycler.php#L54)) of the plugin.
 
 The individual twitts are printed in the last lines of the plugin.
 Line 183 displays the user image.
