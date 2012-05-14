@@ -15,6 +15,7 @@ jQuery(document).ready(function($){
 	    easing: 'easeInOutBack',
 	    easing: 'easeOutBounce', 
 	    delay:  -2000,
+        pause: 1,
 		fit: 1
 	 });
 
