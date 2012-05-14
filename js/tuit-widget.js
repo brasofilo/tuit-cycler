@@ -7,10 +7,10 @@
 jQuery(document).ready(function($){
 
 	$('#tuit-show').cycle({ 
-	    fx:     'shuffle',
+	    fx: 'shuffle',
         shuffle: { top:-100, left:40 },
 	    easing: 'easeInOutBack',
-	    easing: 'easeOutBounce', 
+	    easing: 'easeOutBounce',
 	    delay:  -2000,
         pause: 1,
         fit: 1
