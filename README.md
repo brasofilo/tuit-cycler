@@ -18,7 +18,7 @@ A little touch of style in the Widget admin area by this [WordPress Q&A](http://
 ![Tuit Cycler](https://github.com/brasofilo/tuit-cycler/raw/master/screenshot.png)
 
 ##FAQ
-Check [jQuery Cycle documentation](http://jquery.malsup.com/cycle/options.html) and configure the file /js/tuit-widget.js
+Check [jQuery Cycle documentation](http://jquery.malsup.com/cycle/options.html) and configure the file [/js/tuit-widget.js](https://github.com/brasofilo/tuit-cycler/blob/master/js/tuit-widget.js).
 
 The CSS for the frontend Widget is inside the function tuit_print_stylesheet ([line 54](https://github.com/brasofilo/tuit-cycler/blob/master/rb_tuit_cycler.php#L54)) of the plugin.
 

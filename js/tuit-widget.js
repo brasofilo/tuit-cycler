@@ -7,16 +7,13 @@
 jQuery(document).ready(function($){
 
 	$('#tuit-show').cycle({ 
-	    fx:     'shuffle', 
-		shuffle: { 
-		        top:  -100, 
-		        left:  40 
-		    }, 
+	    fx:     'shuffle',
+        shuffle: { top:-100, left:40 },
 	    easing: 'easeInOutBack',
 	    easing: 'easeOutBounce', 
 	    delay:  -2000,
         pause: 1,
-		fit: 1
+        fit: 1
 	 });
 
 });
