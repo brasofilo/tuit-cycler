@@ -172,13 +172,13 @@ class TuitCyclerWidget extends WP_Widget {
                 $text = preg_replace('|@(\w+)|', '<a href="http://twitter.com/$1">@$1</a>', $text);
                 $text = preg_replace('|#(\w+)|', '<a href="http://search.twitter.com/search?q=%23$1">#$1</a>', $text);
 				
-				// Will hide all divs but the first
-				if($counter == 1) {
-					$class = ' class="tuit-item first'.$counter.'">';
-				} else {
-					$counter++; 
-					$class = ' class="tuit-item">';
-				}
+                // Will hide all divs but the first
+                if($counter == 1) {
+                	$class = ' class="tuit-item first'.$counter.'">';
+                } else {
+                	$counter++;
+                	$class = ' class="tuit-item">';
+                }
                 $output .= "<div".$class;
 
                 if ( isset($image) ) $output .= "<a href='$user_url'><img src='$image' alt='$user' /></a>";

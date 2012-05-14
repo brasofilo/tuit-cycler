@@ -23,7 +23,9 @@ Check [jQuery Cycle documentation](http://jquery.malsup.com/cycle/options.html) 
 The CSS for the frontend Widget is inside the function tuit_print_stylesheet ([line 54](https://github.com/brasofilo/tuit-cycler/blob/master/rb_tuit_cycler.php#L54)) of the plugin.
 
 The individual twitts are printed in the last lines of the plugin.
-Line 183 displays the user image.
+
+[Line 183](https://github.com/brasofilo/tuit-cycler/blob/master/rb_tuit_cycler.php#L183) displays the user image.
+
 Line 184 is the actual twitt.
 
 ## Installation
