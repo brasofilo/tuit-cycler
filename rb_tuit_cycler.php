@@ -20,8 +20,8 @@ class TuitCyclerWidget extends WP_Widget {
 		
 		parent::__construct(
 	 		'tuit_cycler_widget', // Base ID
-			'Twitt Cycler', // Name
-			array( 'description' => __( 'Cycle twitts one at a time', 'tcwidget' ) ) // Args
+			'Tweet Cycler', // Name
+			array( 'description' => __( 'Cycle tweets one at a time', 'tcwidget' ) ) // Args
 		);
 
 		add_action('wp_enqueue_scripts', array($this, 'scripts'));
@@ -121,7 +121,7 @@ class TuitCyclerWidget extends WP_Widget {
 		<input class="widefat" id="<?php echo $this->get_field_id( 'tuit_user' ); ?>" name="<?php echo $this->get_field_name( 'tuit_user' ); ?>" type="text" value="<?php echo esc_attr( $tuit_user ); ?>" />
 		</p>
 		<p>
-		<label for="<?php echo $this->get_field_id( 'tuit_nums' ); ?>"><?php _e( 'Number of twitts:' ); ?></label> 
+		<label for="<?php echo $this->get_field_id( 'tuit_nums' ); ?>"><?php _e( 'Number of tweets:' ); ?></label>
 		<input class="widefat" id="<?php echo $this->get_field_id( 'tuit_nums' ); ?>" name="<?php echo $this->get_field_name( 'tuit_nums' ); ?>" type="text" value="<?php echo esc_attr( $tuit_nums ); ?>" />
 		</p>
 		<?php 
