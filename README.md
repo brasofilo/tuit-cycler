@@ -4,7 +4,7 @@
 WordPress plugin for displaying a Widget with x numbers of Tweets from a specific User. Displays one tweet at a time, and rotates them using the jQuery Cycle Plugin.
 
 ## Description
-Based in this [WordPress Question](http://wordpress.stackexchange.com/q/52074/12615), by Anriëtte Combrink.
+Based on this [WordPress Question](http://wordpress.stackexchange.com/q/52074/12615), by Anriëtte Combrink.
 
 Uses [jQuery Cycle Plugin](http://jquery.malsup.com/cycle/) and [jQuery Easing] (http://gsgd.co.uk/sandbox/jquery/easing/).
 
@@ -12,7 +12,7 @@ Function for grabbing the Tweets grabbed from the plugin [Twitter Hash Tag Short
 
 A little trick for registering the Javascript files only when Widget active from this [WordPress Answer](http://wordpress.stackexchange.com/a/48385/12615), by One Trick Pony.
 
-A little touch of style in the Widget admin area by this [WordPress Q&A](http://wordpress.stackexchange.com/q/3003/12615), by Jan Fabry.
+A little touch of style in the Widget admin area from this [WordPress Q&A](http://wordpress.stackexchange.com/q/3003/12615), by Jan Fabry.
 
 ## Screenshot
 ![Tuit Cycler](https://github.com/brasofilo/tuit-cycler/raw/master/screenshot.png)
