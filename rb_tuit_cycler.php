@@ -141,7 +141,7 @@ class TuitCyclerWidget extends WP_Widget {
                 "number" => 5,
                 ), $atts));
         $api_url = 'http://search.twitter.com/search.json';
-        $raw_response = wp_remote_get("$api_url?q=from%3A$hashtag&rpp=$number");
+        $raw_response = wp_remote_get("$api_url?q=from%3A$from&rpp=$number");
 
         if ( is_wp_error($raw_response) ) {
             $output = "<p>Failed to update from Twitter!</p>\n";
