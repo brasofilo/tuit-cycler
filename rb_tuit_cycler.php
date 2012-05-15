@@ -9,7 +9,9 @@ Author URI: http://rodbuaiz.com
 */
 
 class TuitCyclerWidget extends WP_Widget {
+
 	protected static $did_script = false;
+
 	var $urlpath = '';
 	
 	/**
