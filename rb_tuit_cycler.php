@@ -3,7 +3,7 @@
 Plugin Name: Tuit Cycler
 Plugin URI: http://rodbuaiz.com
 Description: Display x number of tweets in a rotating fashion
-Version: 1.0.0
+Version: 1.0.1
 Author: brasofilo
 Author URI: http://rodbuaiz.com
 */
@@ -134,6 +134,8 @@ class TuitCyclerWidget extends WP_Widget {
 	Version: 0.3
 	Author: bainternet
 	Author URI: http://www.bainternet.info
+
+	TODO: https://dev.twitter.com/docs/api/1/get/users/show
 	*/
 	private function ba_tweets_by_hashtag_9867($atts, $content = null){
          extract(shortcode_atts(array(
