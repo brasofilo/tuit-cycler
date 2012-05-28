@@ -189,7 +189,7 @@ class TuitCyclerWidget extends WP_Widget {
                 $output .= "<a href='$user_url'>$user</a>: $text <a href='$source_url'>&raquo;</a></div>\n";
             }
             $output .= "</div>\n";
-            //$output .= "<div class='view-all'><a href='http://search.twitter.com/search?q=%23$hashtag'>" . __('View All') . "</a></div>\n";
+            //$output .= "<div class='view-all'><a href='http://search.twitter.com/search?q=from%3A$from'>" . __('View All') . "</a></div>\n";
         }
 
         return $output;
