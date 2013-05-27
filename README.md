@@ -1,4 +1,4 @@
-![FLI logo](https://github.com/brasofilo/featured-link-image/raw/master/logo.png)
+![MTT logo](https://raw.github.com/brasofilo/Private-Comments-in-CPT/master/logo.png)
 
 # Tuit Cycler
 WordPress plugin for displaying a Widget with x numbers of Tweets from a specific User. Displays one tweet at a time, and rotates them using the jQuery Cycle Plugin.
